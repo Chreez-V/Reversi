@@ -1,10 +1,11 @@
 #include <iostream>
 #include <vector>
 #include <stdlib.h>
+#define size 8
+
 using namespace std;
 
 //Variable del tamaño del tablero.
-const int size=8; 
 //Variables que representan las fichas y los lugares vacios del tablero.
 enum class Pieza{Vacio, Blanco, Negro};
 enum class Usuario{N,B};

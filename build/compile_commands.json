@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/build",
+  "command": "/usr/bin/c++ -DCMAKE_BUILD_TYPE=\"\" -I/home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/src  -Wall -std=gnu++17 -o CMakeFiles/Reversi.dir/src/main.cpp.o -c /home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/src/main.cpp",
+  "file": "/home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/src/main.cpp",
+  "output": "CMakeFiles/Reversi.dir/src/main.cpp.o"
+}
+]

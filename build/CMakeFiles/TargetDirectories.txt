@@ -1,0 +1,3 @@
+/home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/build/CMakeFiles/Reversi.dir
+/home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/build/CMakeFiles/edit_cache.dir
+/home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/build/CMakeFiles/rebuild_cache.dir

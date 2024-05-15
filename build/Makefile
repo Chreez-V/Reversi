@@ -130,29 +130,29 @@ Reversi/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Reversi.dir/build.make CMakeFiles/Reversi.dir/build
 .PHONY : Reversi/fast
 
-src/main.o: src/main.cpp.o
-.PHONY : src/main.o
+src/Proyecto1.o: src/Proyecto1.cpp.o
+.PHONY : src/Proyecto1.o
 
 # target to build an object file
-src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Reversi.dir/build.make CMakeFiles/Reversi.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
+src/Proyecto1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Reversi.dir/build.make CMakeFiles/Reversi.dir/src/Proyecto1.cpp.o
+.PHONY : src/Proyecto1.cpp.o
 
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
+src/Proyecto1.i: src/Proyecto1.cpp.i
+.PHONY : src/Proyecto1.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Reversi.dir/build.make CMakeFiles/Reversi.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+src/Proyecto1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Reversi.dir/build.make CMakeFiles/Reversi.dir/src/Proyecto1.cpp.i
+.PHONY : src/Proyecto1.cpp.i
 
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
+src/Proyecto1.s: src/Proyecto1.cpp.s
+.PHONY : src/Proyecto1.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Reversi.dir/build.make CMakeFiles/Reversi.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+src/Proyecto1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Reversi.dir/build.make CMakeFiles/Reversi.dir/src/Proyecto1.cpp.s
+.PHONY : src/Proyecto1.cpp.s
 
 # Help Target
 help:
@@ -163,9 +163,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Reversi"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
+	@echo "... src/Proyecto1.o"
+	@echo "... src/Proyecto1.i"
+	@echo "... src/Proyecto1.s"
 .PHONY : help
 
 

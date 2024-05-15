@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Reversi.dir/src/main.cpp.o"
-  "CMakeFiles/Reversi.dir/src/main.cpp.o.d"
+  "CMakeFiles/Reversi.dir/src/Proyecto1.cpp.o"
+  "CMakeFiles/Reversi.dir/src/Proyecto1.cpp.o.d"
   "Reversi"
   "Reversi.pdb"
 )

@@ -1,10 +1,9 @@
 #include <iostream>
 #include <vector>
 #include <stdlib.h>
+#define size 8
 using namespace std;
 
-//Variable del tamaño del tablero.
-const int size=8; 
 //Variables que representan las fichas y los lugares vacios del tablero.
 enum class Pieza{Vacio, Blanco, Negro};
 enum class Usuario{N,B};
@@ -92,12 +91,12 @@ class Reversi {
                 cout<<endl;
                 cout<<"jugador de piezas ";
                 if (usuario == Usuario::N) {
-                    cout<<"Negras";
+                    cout<<"Negras"<<endl;
                 } else {
-                cout<<"Blancas";}
+                cout<<"Blancas"<<endl;}
 
 
-                cout<<endl<<", Introduzca la posicion de la ficha a introducir:"<<endl;
+                cout<<endl<<"Introduzca la posicion de la ficha a introducir:"<<endl;
                 cout<<"Fila: ";
                 cin>>fila;
                 fila--;

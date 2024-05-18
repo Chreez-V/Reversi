@@ -17,7 +17,9 @@ class Reversi {
 private:
   // Declaracion de la variable que representa el tablero
   vector<vector<Pieza>> tablero;
+  //Declaracion de la variable del usuario Inicial
   Usuario usuario = Usuario::N;
+  //Declaracion de los pares que indicaran las posiciones adyacentes del ultimo movimiento realizado
   const vector<pair<int, int>> direcciones = {
       {-1, -1}, {-1, 0}, {-1, 1}, {0, -1}, {0, 1}, {1, -1}, {1, 0}, {1, 1}};
 

@@ -1,12 +1,14 @@
 #include <iostream>
 #include <stdlib.h>
 #include <vector>
+#include <conio.h>
 using namespace std;
 
 // Variable del tamaño del tablero.
 #define size 8
 // Variables que representan las fichas y los lugares vacios del tablero.
 enum class Pieza { Vacio, Blanco, Negro };
+//  Variables que representan los jugadores (Fichas Negras y Fichas Blancas).
 enum class Usuario { N, B };
 
 // Clase para representar el tablero del juego y las acciones que se pueden
@@ -16,7 +18,9 @@ class Reversi {
 private:
   // Declaracion de la variable que representa el tablero
   vector<vector<Pieza>> tablero;
+  //Declaracion de la variable del usuario Inicial
   Usuario usuario = Usuario::N;
+  //Declaracion de los pares que indicaran las posiciones adyacentes del ultimo movimiento realizado
   const vector<pair<int, int>> direcciones = {
       {-1, -1}, {-1, 0}, {-1, 1}, {0, -1}, {0, 1}, {1, -1}, {1, 0}, {1, 1}};
 

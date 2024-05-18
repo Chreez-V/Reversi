@@ -7,6 +7,7 @@ using namespace std;
 #define size 8
 // Variables que representan las fichas y los lugares vacios del tablero.
 enum class Pieza { Vacio, Blanco, Negro };
+//  Variables que representan los jugadores (Fichas Negras y Fichas Blancas).
 enum class Usuario { N, B };
 
 // Clase para representar el tablero del juego y las acciones que se pueden

@@ -1,6 +1,7 @@
 #include <iostream>
 #include <stdlib.h>
 #include <vector>
+#include <conio.h>
 using namespace std;
 
 // Variable del tamaño del tablero.

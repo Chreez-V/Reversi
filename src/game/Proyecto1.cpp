@@ -1,3 +1,4 @@
+#include "menu.hpp"
 #include <iostream>
 #include <stdlib.h>
 #include <vector>

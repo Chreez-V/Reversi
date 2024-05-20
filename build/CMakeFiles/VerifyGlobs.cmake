@@ -5,7 +5,7 @@ cmake_policy(SET CMP0009 NEW)
 # PROJECT_SOURCES at CMakeLists.txt:13 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/src/*.cpp")
 set(OLD_GLOB
-  "/home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/src/main.cpp"
+  "/home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/src/Proyecto1.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

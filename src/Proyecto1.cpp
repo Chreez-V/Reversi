@@ -17,6 +17,7 @@ private:
   // Declaracion de la variable que representa el tablero
   vector<vector<Pieza>> tablero;
   Usuario usuario = Usuario::N;
+  // Se crea una colección de tuplas (pair) para las direcciones.
   const vector<pair<int, int>> direcciones = {
       {-1, -1}, {-1, 0}, {-1, 1}, {0, -1}, {0, 1}, {1, -1}, {1, 0}, {1, 1}};
 
@@ -117,7 +118,7 @@ public:
   bool movimientoValido(int fila, int columna) {
     if (tablero[fila][columna] != Pieza::Vacio || fila < 0 || fila >= size ||
         columna < 0 || columna >= size) {
-      return false;
+      return false; // Verificar si la posicion fila,columna está vacía.
     }
 
     Pieza piezaActual = (usuario == Usuario::N) ? Pieza::Negro : Pieza::Blanco;

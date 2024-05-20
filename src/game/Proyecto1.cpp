@@ -1,6 +1,8 @@
+#include "../GUI/menu.hpp"
 #include <iostream>
 #include <stdlib.h>
 #include <vector>
+
 using namespace std;
 
 // Variable del tamaño del tablero.
@@ -38,7 +40,6 @@ public:
     tablero[3][4] = tablero[4][3] = Pieza::Negro;
   }
 
-  // funcion que imprime el tablero
   void imprimirTablero() {
     // Limpia la pantalla de las anteriores impresiones
     system("cls");
@@ -228,6 +229,7 @@ public:
     return false;
   }
 
+public:
   void jugarPartida() {
     inicializarTablero();
 
@@ -274,10 +276,3 @@ public:
     }
   }
 };
-
-int main() {
-  Reversi juego;
-  juego.jugarPartida();
-  system("pause");
-  return 0;
-} // Funcion para corroborar si la casilla esta disponible

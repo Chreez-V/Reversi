@@ -5,6 +5,7 @@ class Gui {
 private:
   /*Reversi tableroGui;
 
+<<<<<<< HEAD
   Gui(Reversi tablero) {
       tableroGui = tablero;
   }
@@ -13,6 +14,19 @@ private:
 public:
   void menu() {}
   // funcion que imprime el tablero
+=======
+    public:
+
+  Gui(Reversi tablero) : tableroGui(tablero)
+ {
+            
+        }
+
+    void menu() {
+
+    }
+            // funcion que imprime el tablero
+>>>>>>> origin/master
   /*void imprimirTablero() {
     // Limpia la pantalla de las anteriores impresiones
     system("cls");

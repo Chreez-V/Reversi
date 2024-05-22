@@ -69,34 +69,82 @@ include CMakeFiles/Reversi.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Reversi.dir/flags.make
 
-CMakeFiles/Reversi.dir/src/Proyecto1.cpp.o: CMakeFiles/Reversi.dir/flags.make
-CMakeFiles/Reversi.dir/src/Proyecto1.cpp.o: /home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/src/Proyecto1.cpp
-CMakeFiles/Reversi.dir/src/Proyecto1.cpp.o: CMakeFiles/Reversi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Reversi.dir/src/Proyecto1.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Reversi.dir/src/Proyecto1.cpp.o -MF CMakeFiles/Reversi.dir/src/Proyecto1.cpp.o.d -o CMakeFiles/Reversi.dir/src/Proyecto1.cpp.o -c /home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/src/Proyecto1.cpp
+CMakeFiles/Reversi.dir/src/GUI/menu.cpp.o: CMakeFiles/Reversi.dir/flags.make
+CMakeFiles/Reversi.dir/src/GUI/menu.cpp.o: /home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/src/GUI/menu.cpp
+CMakeFiles/Reversi.dir/src/GUI/menu.cpp.o: CMakeFiles/Reversi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Reversi.dir/src/GUI/menu.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Reversi.dir/src/GUI/menu.cpp.o -MF CMakeFiles/Reversi.dir/src/GUI/menu.cpp.o.d -o CMakeFiles/Reversi.dir/src/GUI/menu.cpp.o -c /home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/src/GUI/menu.cpp
 
-CMakeFiles/Reversi.dir/src/Proyecto1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Reversi.dir/src/Proyecto1.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/src/Proyecto1.cpp > CMakeFiles/Reversi.dir/src/Proyecto1.cpp.i
+CMakeFiles/Reversi.dir/src/GUI/menu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Reversi.dir/src/GUI/menu.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/src/GUI/menu.cpp > CMakeFiles/Reversi.dir/src/GUI/menu.cpp.i
 
-CMakeFiles/Reversi.dir/src/Proyecto1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Reversi.dir/src/Proyecto1.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/src/Proyecto1.cpp -o CMakeFiles/Reversi.dir/src/Proyecto1.cpp.s
+CMakeFiles/Reversi.dir/src/GUI/menu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Reversi.dir/src/GUI/menu.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/src/GUI/menu.cpp -o CMakeFiles/Reversi.dir/src/GUI/menu.cpp.s
+
+CMakeFiles/Reversi.dir/src/game/Reversi.cpp.o: CMakeFiles/Reversi.dir/flags.make
+CMakeFiles/Reversi.dir/src/game/Reversi.cpp.o: /home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/src/game/Reversi.cpp
+CMakeFiles/Reversi.dir/src/game/Reversi.cpp.o: CMakeFiles/Reversi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Reversi.dir/src/game/Reversi.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Reversi.dir/src/game/Reversi.cpp.o -MF CMakeFiles/Reversi.dir/src/game/Reversi.cpp.o.d -o CMakeFiles/Reversi.dir/src/game/Reversi.cpp.o -c /home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/src/game/Reversi.cpp
+
+CMakeFiles/Reversi.dir/src/game/Reversi.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Reversi.dir/src/game/Reversi.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/src/game/Reversi.cpp > CMakeFiles/Reversi.dir/src/game/Reversi.cpp.i
+
+CMakeFiles/Reversi.dir/src/game/Reversi.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Reversi.dir/src/game/Reversi.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/src/game/Reversi.cpp -o CMakeFiles/Reversi.dir/src/game/Reversi.cpp.s
+
+CMakeFiles/Reversi.dir/src/game/main.cpp.o: CMakeFiles/Reversi.dir/flags.make
+CMakeFiles/Reversi.dir/src/game/main.cpp.o: /home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/src/game/main.cpp
+CMakeFiles/Reversi.dir/src/game/main.cpp.o: CMakeFiles/Reversi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Reversi.dir/src/game/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Reversi.dir/src/game/main.cpp.o -MF CMakeFiles/Reversi.dir/src/game/main.cpp.o.d -o CMakeFiles/Reversi.dir/src/game/main.cpp.o -c /home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/src/game/main.cpp
+
+CMakeFiles/Reversi.dir/src/game/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Reversi.dir/src/game/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/src/game/main.cpp > CMakeFiles/Reversi.dir/src/game/main.cpp.i
+
+CMakeFiles/Reversi.dir/src/game/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Reversi.dir/src/game/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/src/game/main.cpp -o CMakeFiles/Reversi.dir/src/game/main.cpp.s
+
+CMakeFiles/Reversi.dir/src/game/pcMode.cpp.o: CMakeFiles/Reversi.dir/flags.make
+CMakeFiles/Reversi.dir/src/game/pcMode.cpp.o: /home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/src/game/pcMode.cpp
+CMakeFiles/Reversi.dir/src/game/pcMode.cpp.o: CMakeFiles/Reversi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Reversi.dir/src/game/pcMode.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Reversi.dir/src/game/pcMode.cpp.o -MF CMakeFiles/Reversi.dir/src/game/pcMode.cpp.o.d -o CMakeFiles/Reversi.dir/src/game/pcMode.cpp.o -c /home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/src/game/pcMode.cpp
+
+CMakeFiles/Reversi.dir/src/game/pcMode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Reversi.dir/src/game/pcMode.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/src/game/pcMode.cpp > CMakeFiles/Reversi.dir/src/game/pcMode.cpp.i
+
+CMakeFiles/Reversi.dir/src/game/pcMode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Reversi.dir/src/game/pcMode.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/src/game/pcMode.cpp -o CMakeFiles/Reversi.dir/src/game/pcMode.cpp.s
 
 # Object files for target Reversi
 Reversi_OBJECTS = \
-"CMakeFiles/Reversi.dir/src/Proyecto1.cpp.o"
+"CMakeFiles/Reversi.dir/src/GUI/menu.cpp.o" \
+"CMakeFiles/Reversi.dir/src/game/Reversi.cpp.o" \
+"CMakeFiles/Reversi.dir/src/game/main.cpp.o" \
+"CMakeFiles/Reversi.dir/src/game/pcMode.cpp.o"
 
 # External object files for target Reversi
 Reversi_EXTERNAL_OBJECTS =
 
-Reversi: CMakeFiles/Reversi.dir/src/Proyecto1.cpp.o
+Reversi: CMakeFiles/Reversi.dir/src/GUI/menu.cpp.o
+Reversi: CMakeFiles/Reversi.dir/src/game/Reversi.cpp.o
+Reversi: CMakeFiles/Reversi.dir/src/game/main.cpp.o
+Reversi: CMakeFiles/Reversi.dir/src/game/pcMode.cpp.o
 Reversi: CMakeFiles/Reversi.dir/build.make
 Reversi: /usr/lib/libsfml-graphics.so.2.6.1
 Reversi: /usr/lib/libsfml-window.so.2.6.1
 Reversi: /usr/lib/libsfml-system.so.2.6.1
 Reversi: CMakeFiles/Reversi.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Reversi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Reversi"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Reversi.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

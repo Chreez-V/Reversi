@@ -1,8 +1,26 @@
 [
 {
   "directory": "/home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/build",
-  "command": "/usr/bin/c++ -DCMAKE_BUILD_TYPE=\"\" -I/home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/src  -Wall -std=gnu++17 -o CMakeFiles/Reversi.dir/src/Proyecto1.cpp.o -c /home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/src/Proyecto1.cpp",
-  "file": "/home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/src/Proyecto1.cpp",
-  "output": "CMakeFiles/Reversi.dir/src/Proyecto1.cpp.o"
+  "command": "/usr/bin/c++ -DCMAKE_BUILD_TYPE=\"\" -I/home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/src  -Wall -std=gnu++17 -o CMakeFiles/Reversi.dir/src/GUI/menu.cpp.o -c /home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/src/GUI/menu.cpp",
+  "file": "/home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/src/GUI/menu.cpp",
+  "output": "CMakeFiles/Reversi.dir/src/GUI/menu.cpp.o"
+},
+{
+  "directory": "/home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/build",
+  "command": "/usr/bin/c++ -DCMAKE_BUILD_TYPE=\"\" -I/home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/src  -Wall -std=gnu++17 -o CMakeFiles/Reversi.dir/src/game/Reversi.cpp.o -c /home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/src/game/Reversi.cpp",
+  "file": "/home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/src/game/Reversi.cpp",
+  "output": "CMakeFiles/Reversi.dir/src/game/Reversi.cpp.o"
+},
+{
+  "directory": "/home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/build",
+  "command": "/usr/bin/c++ -DCMAKE_BUILD_TYPE=\"\" -I/home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/src  -Wall -std=gnu++17 -o CMakeFiles/Reversi.dir/src/game/main.cpp.o -c /home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/src/game/main.cpp",
+  "file": "/home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/src/game/main.cpp",
+  "output": "CMakeFiles/Reversi.dir/src/game/main.cpp.o"
+},
+{
+  "directory": "/home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/build",
+  "command": "/usr/bin/c++ -DCMAKE_BUILD_TYPE=\"\" -I/home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/src  -Wall -std=gnu++17 -o CMakeFiles/Reversi.dir/src/game/pcMode.cpp.o -c /home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/src/game/pcMode.cpp",
+  "file": "/home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/src/game/pcMode.cpp",
+  "output": "CMakeFiles/Reversi.dir/src/game/pcMode.cpp.o"
 }
 ]

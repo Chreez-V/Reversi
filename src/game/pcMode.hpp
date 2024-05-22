@@ -1,3 +1,4 @@
+#include "Reversi.hpp"
 #include <stdio.h>
 #include <time.h>
 #include <vector>
@@ -8,5 +9,5 @@ class PcMode {
 
 public:
   PcMode();
-  void realizarMovimientoComputadora(vector<pair<int, int>> movimientos);
+  void realizarMovimientoComputadora(Reversi &juego);
 };

@@ -8,7 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/src/Proyecto1.cpp" "CMakeFiles/Reversi.dir/src/Proyecto1.cpp.o" "gcc" "CMakeFiles/Reversi.dir/src/Proyecto1.cpp.o.d"
+  "/home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/src/GUI/menu.cpp" "CMakeFiles/Reversi.dir/src/GUI/menu.cpp.o" "gcc" "CMakeFiles/Reversi.dir/src/GUI/menu.cpp.o.d"
+  "/home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/src/game/Reversi.cpp" "CMakeFiles/Reversi.dir/src/game/Reversi.cpp.o" "gcc" "CMakeFiles/Reversi.dir/src/game/Reversi.cpp.o.d"
+  "/home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/src/game/main.cpp" "CMakeFiles/Reversi.dir/src/game/main.cpp.o" "gcc" "CMakeFiles/Reversi.dir/src/game/main.cpp.o.d"
+  "/home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/src/game/pcMode.cpp" "CMakeFiles/Reversi.dir/src/game/pcMode.cpp.o" "gcc" "CMakeFiles/Reversi.dir/src/game/pcMode.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

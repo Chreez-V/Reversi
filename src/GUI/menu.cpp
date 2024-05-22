@@ -1,64 +1,36 @@
 #include "menu.hpp"
-#include "../game/Proyecto1.hpp"
+#include <iostream>
 
-class Gui {
-private:
-  /*Reversi tableroGui;
+void GUI::imprimirTablero(const Reversi &juego) {
+  system("cls");
+  const auto &tablero = juego.getTablero();
+  int size = juego.getTamanio();
 
-<<<<<<< HEAD
-  Gui(Reversi tablero) {
-      tableroGui = tablero;
-  }
-  */
+  std::cout << "  ";
+  for (int i = 0; i < size; i++)
+    std::cout << i + 1 << " ";
+  std::cout << std::endl;
 
-public:
-  void menu() {}
-  // funcion que imprime el tablero
-=======
-    public:
-
-  Gui(Reversi tablero) : tableroGui(tablero)
- {
-            
-        }
-
-    void menu() {
-
-    }
-            // funcion que imprime el tablero
->>>>>>> origin/master
-  /*void imprimirTablero() {
-    // Limpia la pantalla de las anteriores impresiones
-    system("cls");
-    // imprime el numero de las columnas del tablero en la parte sup.
-    cout << "  ";
-    for (int i = 0; i < size; i++)
-      cout << i + 1 << " ";
-    cout << endl;
-
-    for (int i = 0; i < size; i++) {
-      // imprime el numero de las filas del tablero en la parte inf.
-      cout << i + 1 << " ";
-      // switch para identificar que pieza es y representarla
-      for (int j = 0; j < size; j++) {
-
-        switch (tableroGui.[i][j]) {
-            case Pieza::Vacio:
-            cout << ".";
-            break;
-
-            case Pieza::Negro:
-            cout << "N";
-            break;
-
-            case Pieza::Blanco:
-            cout << "B";
-            break;
-        }
-        cout << " ";
+  for (int i = 0; i < size; i++) {
+    std::cout << i + 1 << " ";
+    for (int j = 0; j < size; j++) {
+      switch (tablero[i][j]) {
+      case Pieza::Vacio:
+        std::cout << ".";
+        break;
+      case Pieza::Negro:
+        std::cout << "N";
+        break;
+      case Pieza::Blanco:
+        std::cout << "B";
+        break;
       }
-      // Instruccion para que baje a la siguiente linea
-      cout << endl;
+      std::cout << " ";
     }
-  }*/
-};
+    std::cout << std::endl;
+  }
+}
+
+void GUI::mostrarMensaje(const std::string &mensaje) {
+  std::cout << mensaje << std::endl;
+}

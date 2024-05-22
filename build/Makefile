@@ -130,29 +130,101 @@ Reversi/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Reversi.dir/build.make CMakeFiles/Reversi.dir/build
 .PHONY : Reversi/fast
 
-src/Proyecto1.o: src/Proyecto1.cpp.o
-.PHONY : src/Proyecto1.o
+src/GUI/menu.o: src/GUI/menu.cpp.o
+.PHONY : src/GUI/menu.o
 
 # target to build an object file
-src/Proyecto1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Reversi.dir/build.make CMakeFiles/Reversi.dir/src/Proyecto1.cpp.o
-.PHONY : src/Proyecto1.cpp.o
+src/GUI/menu.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Reversi.dir/build.make CMakeFiles/Reversi.dir/src/GUI/menu.cpp.o
+.PHONY : src/GUI/menu.cpp.o
 
-src/Proyecto1.i: src/Proyecto1.cpp.i
-.PHONY : src/Proyecto1.i
+src/GUI/menu.i: src/GUI/menu.cpp.i
+.PHONY : src/GUI/menu.i
 
 # target to preprocess a source file
-src/Proyecto1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Reversi.dir/build.make CMakeFiles/Reversi.dir/src/Proyecto1.cpp.i
-.PHONY : src/Proyecto1.cpp.i
+src/GUI/menu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Reversi.dir/build.make CMakeFiles/Reversi.dir/src/GUI/menu.cpp.i
+.PHONY : src/GUI/menu.cpp.i
 
-src/Proyecto1.s: src/Proyecto1.cpp.s
-.PHONY : src/Proyecto1.s
+src/GUI/menu.s: src/GUI/menu.cpp.s
+.PHONY : src/GUI/menu.s
 
 # target to generate assembly for a file
-src/Proyecto1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Reversi.dir/build.make CMakeFiles/Reversi.dir/src/Proyecto1.cpp.s
-.PHONY : src/Proyecto1.cpp.s
+src/GUI/menu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Reversi.dir/build.make CMakeFiles/Reversi.dir/src/GUI/menu.cpp.s
+.PHONY : src/GUI/menu.cpp.s
+
+src/game/Reversi.o: src/game/Reversi.cpp.o
+.PHONY : src/game/Reversi.o
+
+# target to build an object file
+src/game/Reversi.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Reversi.dir/build.make CMakeFiles/Reversi.dir/src/game/Reversi.cpp.o
+.PHONY : src/game/Reversi.cpp.o
+
+src/game/Reversi.i: src/game/Reversi.cpp.i
+.PHONY : src/game/Reversi.i
+
+# target to preprocess a source file
+src/game/Reversi.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Reversi.dir/build.make CMakeFiles/Reversi.dir/src/game/Reversi.cpp.i
+.PHONY : src/game/Reversi.cpp.i
+
+src/game/Reversi.s: src/game/Reversi.cpp.s
+.PHONY : src/game/Reversi.s
+
+# target to generate assembly for a file
+src/game/Reversi.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Reversi.dir/build.make CMakeFiles/Reversi.dir/src/game/Reversi.cpp.s
+.PHONY : src/game/Reversi.cpp.s
+
+src/game/main.o: src/game/main.cpp.o
+.PHONY : src/game/main.o
+
+# target to build an object file
+src/game/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Reversi.dir/build.make CMakeFiles/Reversi.dir/src/game/main.cpp.o
+.PHONY : src/game/main.cpp.o
+
+src/game/main.i: src/game/main.cpp.i
+.PHONY : src/game/main.i
+
+# target to preprocess a source file
+src/game/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Reversi.dir/build.make CMakeFiles/Reversi.dir/src/game/main.cpp.i
+.PHONY : src/game/main.cpp.i
+
+src/game/main.s: src/game/main.cpp.s
+.PHONY : src/game/main.s
+
+# target to generate assembly for a file
+src/game/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Reversi.dir/build.make CMakeFiles/Reversi.dir/src/game/main.cpp.s
+.PHONY : src/game/main.cpp.s
+
+src/game/pcMode.o: src/game/pcMode.cpp.o
+.PHONY : src/game/pcMode.o
+
+# target to build an object file
+src/game/pcMode.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Reversi.dir/build.make CMakeFiles/Reversi.dir/src/game/pcMode.cpp.o
+.PHONY : src/game/pcMode.cpp.o
+
+src/game/pcMode.i: src/game/pcMode.cpp.i
+.PHONY : src/game/pcMode.i
+
+# target to preprocess a source file
+src/game/pcMode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Reversi.dir/build.make CMakeFiles/Reversi.dir/src/game/pcMode.cpp.i
+.PHONY : src/game/pcMode.cpp.i
+
+src/game/pcMode.s: src/game/pcMode.cpp.s
+.PHONY : src/game/pcMode.s
+
+# target to generate assembly for a file
+src/game/pcMode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Reversi.dir/build.make CMakeFiles/Reversi.dir/src/game/pcMode.cpp.s
+.PHONY : src/game/pcMode.cpp.s
 
 # Help Target
 help:
@@ -163,9 +235,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Reversi"
-	@echo "... src/Proyecto1.o"
-	@echo "... src/Proyecto1.i"
-	@echo "... src/Proyecto1.s"
+	@echo "... src/GUI/menu.o"
+	@echo "... src/GUI/menu.i"
+	@echo "... src/GUI/menu.s"
+	@echo "... src/game/Reversi.o"
+	@echo "... src/game/Reversi.i"
+	@echo "... src/game/Reversi.s"
+	@echo "... src/game/main.o"
+	@echo "... src/game/main.i"
+	@echo "... src/game/main.s"
+	@echo "... src/game/pcMode.o"
+	@echo "... src/game/pcMode.i"
+	@echo "... src/game/pcMode.s"
 .PHONY : help
 
 

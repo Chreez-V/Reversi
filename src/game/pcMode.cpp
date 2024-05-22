@@ -1,19 +1,26 @@
 #include "pcMode.hpp"
-#include "Proyecto1.hpp"
+#include <iostream>
+#include <stdlib.h>
+#include <time.h>
+#include <vector>
 
-void realizarMovimientoComputadora(vector<pair<int, int>> movimientos) {
+void PcMode::realizarMovimientoComputadora(Reversi &juego) {
+  std::cout << std::endl << "Turno de la Computadora." << std::endl;
+  std::vector<std::pair<int, int>> movimientosValidos =
+      juego.obtenerMovimientosValidos();
 
-  vector<pair<int, int>> movimientosComputadora = movimientos;
-  if (!movimientosComputadora.empty()) {
+  if (!movimientosValidos.empty()) {
     srand(time(0));
-    int indice = rand() % movimientosComputadora.size();
-    int fila = movimientosComputadora[indice].first;
-    int columna = movimientosComputadora[indice].second;
+    int indice = rand() % movimientosValidos.size();
+    int fila = movimientosValidos[indice].first;
+    int columna = movimientosValidos[indice].second;
 
-    Reversi::colocarPieza(fila, columna);
-    Reversi::cambiarFichas(fila, columna);
-    Reversi::cambiarUsuario();
+    juego.colocarPieza(fila, columna);
+    juego.cambiarFichas(fila, columna);
+    juego.cambiarUsuario();
   } else {
-    Reversi::cambiarUsuario();
+    std::cout << "La computadora no tiene movimientos válidos. Turno pasado."
+              << std::endl;
+    juego.cambiarUsuario();
   }
 }

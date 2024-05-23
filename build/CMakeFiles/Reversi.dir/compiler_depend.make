@@ -350,7 +350,6 @@ CMakeFiles/Reversi.dir/src/game/Reversi.cpp.o: /home/christian/Documents/Notas-V
   /usr/include/c++/14.1.1/ostream \
   /usr/include/c++/14.1.1/pstl/pstl_config.h \
   /usr/include/c++/14.1.1/stdexcept \
-  /usr/include/c++/14.1.1/stdlib.h \
   /usr/include/c++/14.1.1/streambuf \
   /usr/include/c++/14.1.1/string \
   /usr/include/c++/14.1.1/string_view \
@@ -616,6 +615,8 @@ CMakeFiles/Reversi.dir/src/game/pcMode.cpp.o: /home/christian/Documents/Notas-Vi
   /usr/include/bits/select.h \
   /usr/include/bits/setjmp.h \
   /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-least.h \
+  /usr/include/bits/stdint-uintn.h \
   /usr/include/bits/stdio_lim.h \
   /usr/include/bits/stdlib-float.h \
   /usr/include/bits/struct_mutex.h \
@@ -667,6 +668,7 @@ CMakeFiles/Reversi.dir/src/game/pcMode.cpp.o: /home/christian/Documents/Notas-Vi
   /usr/include/c++/14.1.1/bits/basic_string.tcc \
   /usr/include/c++/14.1.1/bits/char_traits.h \
   /usr/include/c++/14.1.1/bits/charconv.h \
+  /usr/include/c++/14.1.1/bits/chrono.h \
   /usr/include/c++/14.1.1/bits/concept_check.h \
   /usr/include/c++/14.1.1/bits/cpp_type_traits.h \
   /usr/include/c++/14.1.1/bits/cxxabi_forced.h \
@@ -692,6 +694,7 @@ CMakeFiles/Reversi.dir/src/game/pcMode.cpp.o: /home/christian/Documents/Notas-Vi
   /usr/include/c++/14.1.1/bits/new_allocator.h \
   /usr/include/c++/14.1.1/bits/ostream.tcc \
   /usr/include/c++/14.1.1/bits/ostream_insert.h \
+  /usr/include/c++/14.1.1/bits/parse_numbers.h \
   /usr/include/c++/14.1.1/bits/postypes.h \
   /usr/include/c++/14.1.1/bits/predefined_ops.h \
   /usr/include/c++/14.1.1/bits/ptr_traits.h \
@@ -699,6 +702,7 @@ CMakeFiles/Reversi.dir/src/game/pcMode.cpp.o: /home/christian/Documents/Notas-Vi
   /usr/include/c++/14.1.1/bits/refwrap.h \
   /usr/include/c++/14.1.1/bits/requires_hosted.h \
   /usr/include/c++/14.1.1/bits/std_abs.h \
+  /usr/include/c++/14.1.1/bits/std_thread.h \
   /usr/include/c++/14.1.1/bits/stl_algobase.h \
   /usr/include/c++/14.1.1/bits/stl_bvector.h \
   /usr/include/c++/14.1.1/bits/stl_construct.h \
@@ -713,6 +717,8 @@ CMakeFiles/Reversi.dir/src/game/pcMode.cpp.o: /home/christian/Documents/Notas-Vi
   /usr/include/c++/14.1.1/bits/streambuf_iterator.h \
   /usr/include/c++/14.1.1/bits/string_view.tcc \
   /usr/include/c++/14.1.1/bits/stringfwd.h \
+  /usr/include/c++/14.1.1/bits/this_thread_sleep.h \
+  /usr/include/c++/14.1.1/bits/unique_ptr.h \
   /usr/include/c++/14.1.1/bits/uses_allocator.h \
   /usr/include/c++/14.1.1/bits/uses_allocator_args.h \
   /usr/include/c++/14.1.1/bits/utility.h \
@@ -720,11 +726,14 @@ CMakeFiles/Reversi.dir/src/game/pcMode.cpp.o: /home/christian/Documents/Notas-Vi
   /usr/include/c++/14.1.1/bits/version.h \
   /usr/include/c++/14.1.1/cctype \
   /usr/include/c++/14.1.1/cerrno \
+  /usr/include/c++/14.1.1/chrono \
   /usr/include/c++/14.1.1/clocale \
   /usr/include/c++/14.1.1/concepts \
   /usr/include/c++/14.1.1/cstddef \
+  /usr/include/c++/14.1.1/cstdint \
   /usr/include/c++/14.1.1/cstdio \
   /usr/include/c++/14.1.1/cstdlib \
+  /usr/include/c++/14.1.1/ctime \
   /usr/include/c++/14.1.1/cwchar \
   /usr/include/c++/14.1.1/cwctype \
   /usr/include/c++/14.1.1/debug/assertions.h \
@@ -740,15 +749,18 @@ CMakeFiles/Reversi.dir/src/game/pcMode.cpp.o: /home/christian/Documents/Notas-Vi
   /usr/include/c++/14.1.1/iosfwd \
   /usr/include/c++/14.1.1/iostream \
   /usr/include/c++/14.1.1/istream \
+  /usr/include/c++/14.1.1/limits \
   /usr/include/c++/14.1.1/new \
   /usr/include/c++/14.1.1/ostream \
   /usr/include/c++/14.1.1/pstl/pstl_config.h \
+  /usr/include/c++/14.1.1/ratio \
   /usr/include/c++/14.1.1/stdexcept \
   /usr/include/c++/14.1.1/stdlib.h \
   /usr/include/c++/14.1.1/streambuf \
   /usr/include/c++/14.1.1/string \
   /usr/include/c++/14.1.1/string_view \
   /usr/include/c++/14.1.1/system_error \
+  /usr/include/c++/14.1.1/thread \
   /usr/include/c++/14.1.1/tuple \
   /usr/include/c++/14.1.1/type_traits \
   /usr/include/c++/14.1.1/typeinfo \
@@ -776,6 +788,7 @@ CMakeFiles/Reversi.dir/src/game/pcMode.cpp.o: /home/christian/Documents/Notas-Vi
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
   /usr/include/stdio.h \
   /usr/include/stdlib.h \
   /usr/include/sys/cdefs.h \
@@ -786,8 +799,19 @@ CMakeFiles/Reversi.dir/src/game/pcMode.cpp.o: /home/christian/Documents/Notas-Vi
   /usr/include/wchar.h \
   /usr/include/wctype.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/stdarg.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/stddef.h
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/stdint.h
 
+
+/usr/include/stdint.h:
+
+/usr/include/c++/14.1.1/ctime:
+
+/usr/include/c++/14.1.1/bits/this_thread_sleep.h:
+
+/usr/include/c++/14.1.1/bits/parse_numbers.h:
+
+/usr/include/c++/14.1.1/bits/chrono.h:
 
 /home/christian/Documents/Notas-Vida/Coding-2024/Cplusplus/Reversi/src/game/pcMode.cpp:
 
@@ -871,7 +895,11 @@ CMakeFiles/Reversi.dir/src/game/pcMode.cpp.o: /home/christian/Documents/Notas-Vi
 
 /usr/include/c++/14.1.1/cwchar:
 
+/usr/include/bits/stdint-least.h:
+
 /usr/include/c++/14.1.1/cstdlib:
+
+/usr/include/c++/14.1.1/limits:
 
 /usr/include/c++/14.1.1/cstdio:
 
@@ -899,9 +927,13 @@ CMakeFiles/Reversi.dir/src/game/pcMode.cpp.o: /home/christian/Documents/Notas-Vi
 
 /usr/include/bits/types/struct_sched_param.h:
 
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/stdint.h:
+
 /usr/include/ctype.h:
 
 /usr/include/bits/waitflags.h:
+
+/usr/include/c++/14.1.1/cstdint:
 
 /usr/include/bits/types/struct_FILE.h:
 
@@ -929,7 +961,13 @@ CMakeFiles/Reversi.dir/src/game/pcMode.cpp.o: /home/christian/Documents/Notas-Vi
 
 /usr/include/bits/types.h:
 
+/usr/include/c++/14.1.1/bits/std_thread.h:
+
+/usr/include/bits/stdint-uintn.h:
+
 /usr/include/c++/14.1.1/bits/istream.tcc:
+
+/usr/include/c++/14.1.1/ratio:
 
 /usr/include/bits/stdint-intn.h:
 
@@ -990,6 +1028,8 @@ CMakeFiles/Reversi.dir/src/game/pcMode.cpp.o: /home/christian/Documents/Notas-Vi
 /usr/include/bits/stdlib-float.h:
 
 /usr/include/bits/time64.h:
+
+/usr/include/c++/14.1.1/thread:
 
 /usr/include/c++/14.1.1/backward/binders.h:
 
@@ -1154,6 +1194,10 @@ CMakeFiles/Reversi.dir/src/game/pcMode.cpp.o: /home/christian/Documents/Notas-Vi
 /usr/include/sys/single_threaded.h:
 
 /usr/include/c++/14.1.1/bits/refwrap.h:
+
+/usr/include/c++/14.1.1/chrono:
+
+/usr/include/c++/14.1.1/bits/unique_ptr.h:
 
 /usr/include/c++/14.1.1/ostream:
 

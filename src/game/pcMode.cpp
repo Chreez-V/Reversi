@@ -4,12 +4,16 @@
 #include <time.h>
 #include <vector>
 
-void PcMode::realizarMovimientoComputadora(Reversi &juego) {
-  std::cout << std::endl << "Turno de la Computadora." << std::endl;
-  std::vector<std::pair<int, int>> movimientosValidos =
+using namespace std;
+
+void PcMode::realizarMovimientoComputadora(Reversi &juego) 
+{
+ cout << endl << "Turno de la Computadora." << endl;
+  vector<pair<int, int>> movimientosValidos =
       juego.obtenerMovimientosValidos();
 
-  if (!movimientosValidos.empty()) {
+  if (!movimientosValidos.empty())
+   {
     srand(time(0));
     int indice = rand() % movimientosValidos.size();
     int fila = movimientosValidos[indice].first;
@@ -19,8 +23,8 @@ void PcMode::realizarMovimientoComputadora(Reversi &juego) {
     juego.cambiarFichas(fila, columna);
     juego.cambiarUsuario();
   } else {
-    std::cout << "La computadora no tiene movimientos válidos. Turno pasado."
-              << std::endl;
+    cout << "La computadora no tiene movimientos válidos. Turno pasado."
+              << endl;
     juego.cambiarUsuario();
   }
 }

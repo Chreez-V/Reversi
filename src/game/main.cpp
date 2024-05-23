@@ -5,13 +5,6 @@ using namespace std;
 /*
   Esta clase contiene una notacion asintota de Big O (n^2) + big 0 n = (n^2)
 */
-void menu() {
-  cout << "Selecciona el modo de juego:" << endl;
-  cout << "1. Jugador vs Jugador" << endl;
-  cout << "2. Jugador vs Máquina" << endl;
-  cout << "3. Máquina vs Máquina" << endl;
-  cout << "Ingrese su opción: ";
-}
 
 int main() {
   int opcion;
@@ -19,7 +12,7 @@ int main() {
   GUI gui;
   PcMode maquina;
 
-  menu();
+  gui.menu();
   cin >> opcion;
 
   switch (opcion) {
@@ -35,7 +28,6 @@ int main() {
                  juego.tieneMovimientosValidos(Simbolo::B)) {
         juego.realizarMovimiento();
       }
-      juego.cambiarUsuario();
     }
     break;
   case 2:

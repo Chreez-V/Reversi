@@ -6,6 +6,7 @@
 
 class GUI {
 public:
+  void menu();
   static void imprimirTablero(const Reversi &juego);
   static void mostrarMensaje(const std::string &mensaje);
 };
